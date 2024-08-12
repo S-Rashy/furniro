@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+}
+section{
+    margin: 20px 0px;
+}
+nav{
+    width: 1440px;
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    width: 1286px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    align-items: center;
+}
+.links{
+    display: flex;
+    width: 430px;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    li{
+        list-style-type: none;
+    }
+}
+.icons{
+    display: flex;
+    width: 300px;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+    background: url(./img/scandinavian-interior-mockup-wall-decal-background\ 1.svg);
+    height: 717px;
+    width: 1440px;
+}
+.new{
+    width: 643px;
+    height: 443px;
+    /* border: 1px solid; */
+    background: rgba(255, 243, 227, 1);
+    position: relative;
+    top: 170px;
+    left: 739px;
+    border-radius: 10px;
+    padding: 45px;
+
+    h2{
+        width: 450px;
+        height: 127px;
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 65px;
+        margin: 0;
+        color: rgba(184, 142, 47, 1);
+    }
+    h6{
+        width: 123px;
+        height: 24px;
+        font-size: 16px;
+    }
+    p{
+        width: 520px;
+        height: 52px;
+        font-size: 18px;
+    }
+    button{
+        width: 222px;
+        height: 74px;
+        margin: 10px;
+        background-color: rgba(184, 142, 47, 1);
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+    }
+}
+.second{
+    width: 1440px;
+    text-align: center;
+}
+.browseimg{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0px
+}
+.sectionthree{
+    width: 1440px;
+}
+.third{
+    width: 1236px;
+    height: 1084px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    h3{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        margin: 10px;
+    }
+    #sm{
+        width: 245px;
+        height: 48px;
+        margin: 0 auto;
+        position: relative;
+        top: 43px;
+        left: 480px;
+       color: rgba(184, 142, 47, 1);
+       border: 1px solid rgba(184, 142, 47, 1);
+       background-color: transparent;
+    }
+}
+.img3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    img{
+        width: 285px;
+        height: 301px;
+        margin: 0;
+    }
+}
+#one{
+    background: url(./img/image\ 1.svg);
+    width: 285px;
+    height: 301px;
+}
+#three{
+    background: url(./img/image\ 3.svg);
+    width: 285px;
+    height: 301px;
+}
+#four{
+    background: url(./img/image\ 4.svg);
+    width: 285px;
+    height: 301px;
+}
+#six{
+    background: url(./img/image\ 6.svg);
+    width: 285px;
+    height: 301px;
+}
+#seven{
+    background: url(./img/image\ 7.svg);
+    width: 285px;
+    height: 301px;
+}
+#eight{
+    background: url(./img/image\ 8.svg);
+    width: 285px;
+    height: 301px;
+}
+.circle{
+    width: 48px;
+    height: 48px;
+    border: none;
+    position: relative;
+    top: 24px;
+    left: 213px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+}
+.thirty{
+    background-color: rgb(233,113,113);
+}
+.newb,.fifty{
+    background-color: rgb(46,193,172);
+}
+.syl{
+    /* border: 1px solid; */
+    width: 285px;
+    height: 446px;
+    margin-top: 15px;
+    background: rgba(244, 245, 247, 1);
+    position: relative;
+    h4{
+        font-size: 24px;
+        margin: 5px 0px;
+    }
+    p{
+        margin: 10px 0px;
+    }
+    h6{
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+    span{
+        font-size: 16px;
+        margin-left: 5px;
+        color: rgba(176, 176, 176, 1);
+    }
+}
+.title{
+    padding: 10px;
+}
+.overlay{
+    width: 285px;
+    height: 446px;
+    display: none;
+    position: relative;
+    bottom: 430px;
+    right: 10px;
+    background: url(./img/Overlay.svg);
+    /* background: rgba(58, 58, 58, 1); */
+    /* border: 5px solid; */
+    z-index: 2;
+
+    button{
+        width: 202px;
+        height: 48px;
+        background: rgba(255, 255, 255, 1);
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(184, 142, 47, 1);
+        border: none;
+    }
+}
+.overbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 252px;
+    height: 24px;
+    gap: 20px;
+    color: white;
+    font-weight: 600;
+
+    img{
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+        /* border: 1px solid; */
+    }
+}
+.shareO{
+    display: flex;
+    /* border: 1px solid; */
+}
+.syl:hover{
+    /* border: 1px solid; */
+    /* opacity: 0.7; */
+    background: rgba(58, 58, 58, 1) ;
+    .overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;   
+    }
+}
+.fourth{
+    background: rgba(252, 248, 243, 1);
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+.beautiful{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    h3{
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 700;
+        /* border: 1px solid; */
+        width: 422px;
+        margin: 0;
+    }
+    p {
+        /* border: 1px solid; */
+        width: 368px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    button{
+        width: 176px;
+        height: 48px;
+        background: rgba(184, 142, 47, 1);
+        color: white;
+        font-weight: 600;
+        border: none;
+    }
+}
+.inner{
+    background: url(./img/Rectangle\ 24.svg);
+    width: 404px;
+    height: 582px;
+    display: flex;
+    padding: 30px;
+    align-items: end;
+}
+.innerpeace{
+    background: rgba(255, 255, 255, 0.72);
+    /* border: 1px solid; */
+    width: 217px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    p{
+        font-weight: 500;
+        margin: 0%;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 28px;
+        margin: 0%;
+    }
+}
+.cta{
+    width: 48px;
+    height: 48px;
+}
+.dotup{
+    background: url(./img/Rectangle\ 25.svg);
+    width: 372px;
+    height: 486px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#indicator{
+    margin: 25px 15px;
+}
+.angle{
+    width: 48px;
+    height: 48px;
+}
+.fifth{
+    width: 1440px;
+}
+.share{
+    height: 86px;
+    /* border:1px solid; */
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    top: 73px;
+    z-index: 2;
+    p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    }
+    h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 48px;
+    }
+}
+.img5{
+    width: 1440px;
+    margin-top: 0;
+}
+.img5 img:nth-child(3){
+    position: relative;
+    top: 150px;
+}
+.img5 img:nth-child(4){
+    position: relative;
+    top: 50px;
+}
+.img5 img:nth-child(5){
+    position: relative;
+    top: 50px;
+}
+.img5 img:nth-child(7){
+    position: relative;
+    bottom: 80px;
+}
+.img5 img:nth-child(8){
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+}
+.img5 img:nth-child(9){
+    position: relative;
+    left: 300px;
+    bottom: 75px;
+}
+footer{
+    width: 1440px;
+    height: 505px;
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+    display: flex;
+    p{
+        color: rgba(159, 159, 159, 1);
+    }
+}
+.footerall{
+    width: 1240.01px;
+    height: 419px;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.footerr{  
+    width: 1133.01px;
+    height: 315px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+}
+.ad{
+    width: 290px;
+    p{
+        width: 250px;
+        line-height: 24px;
+        height: 72px;
+        /* border: 1px solid; */
+        margin: 60px 0px;
+    }
+}
+.rightF{
+    width: 710px;
+    height: 312px;
+    display: flex;
+    justify-content: space-between;
+}
+.ff{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.linkF{
+    width: 68px;
+    height: 312px;
+}
+.helpF{
+    width: 140px;
+    height: 242px;
+}
+.newsletter{
+    width: 286px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    a{
+        margin: 0px 0px 0px 30px;
+    }
+}
+#nl{
+    font-size: 14px;
+}
+.rights{
+    margin-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+    width: 1240.01px;
+    height: 99px;
+    display: flex;
+    align-items: end;
+/* border: 1px solid; */
+}
+
